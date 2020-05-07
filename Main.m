@@ -5,3 +5,5 @@ tic
 Id = TSF(In);
 toc
 imshow([I, In, Id]);
+psnr(Id, I)
+ssim(Id, I)
